@@ -16,7 +16,7 @@ Este es un proyecto de ejemplo que muestra cómo crear una API REST con Node.js 
 2. Ir al directorio del proyecto: `cd nodejs-mariadb`
 3. Copiar y configurar las variables de entorno: `cp .env.example .env`
 4. Instalar las dependencias: `npm install`
-5. Ejecutar docker-compose up para levantar mariadb + phpMyAdmin 
+5. Ejecutar docker-compose up para levantar mariadb + phpMyAdmin, acceder a http://localhost:8080, las credenciales están en docker-compose.yml
 6. Ejecutar el archivo `database.sql` en phpMyAdmin para crear las tablas y los datos de prueba
 
 ## Uso
@@ -42,4 +42,4 @@ Este es un proyecto de ejemplo que muestra cómo crear una API REST con Node.js 
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT. Consulte el archivo LICENSE para obtener más información.
+Este proyecto está bajo la licencia MIT.
