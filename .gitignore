@@ -1,0 +1,11 @@
+# Ignorar el directorio "db" y todo su contenido
+db/
+
+# Ignorar el directorio "dist" y todo su contenido
+dist/
+
+# Ignorar el archivo ".env" (asumiendo que está en la raíz del proyecto)
+.env
+
+# Ignorar el directorio "node_modules" y todo su contenido
+node_modules/
