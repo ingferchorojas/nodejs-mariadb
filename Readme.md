@@ -12,7 +12,7 @@ Este es un proyecto de ejemplo que muestra cómo crear una API REST con Node.js 
 
 ## Instalación
 
-1. Clonar el repositorio: `git clone https://github.com/tu-usuario/nodejs-mariadb.git`
+1. Clonar el repositorio: `git clone https://github.com/ingferchorojas/nodejs-mariadb.git`
 2. Ir al directorio del proyecto: `cd nodejs-mariadb`
 3. Copiar y configurar las variables de entorno: `cp .env.example .env`
 4. Instalar las dependencias: `npm install`
