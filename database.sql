@@ -12,4 +12,4 @@ CREATE TABLE administradores (
 -- Inserts para la tabla de administradores
 INSERT INTO administradores (nombre, apellido, email, password)
 VALUES
-('Admin', 'User', 'admin@email.com', '$2y$10$VktbUXa5q.83RilS7oW81ufqXTDcLgTej6xBVMdfzMVePUYWHQsVK');
+('Admin', 'User', 'admin@email', '$2b$10$.VpE3SKtgLy81VB0vY9msuXGmPFnD6m0g0wb5Y.0.VQ.MTy7JTQke');

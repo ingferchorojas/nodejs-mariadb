@@ -1,12 +1,12 @@
-import { Router } from "express";
-import { AdminController } from "../controllers/adminController";
-import { authMiddleware } from "../middlewares/authMiddleware";
+import { Router } from "express"
+import { AdminController } from "../controllers/adminController"
+import { authMiddleware } from "../middlewares/authMiddleware"
 
-const router = Router();
-const adminController = new AdminController();
+const router = Router()
+const adminController = new AdminController()
 
-router.post("/signup", adminController.signup);
-router.post("/login", adminController.login);
-router.get("/:id", authMiddleware, adminController.getUser);
+router.post("/register", authMiddleware, adminController.register)
+router.post("/login", adminController.login)
+router.get("/:id", authMiddleware, adminController.getUser)
 
-export default router;
+export default router
