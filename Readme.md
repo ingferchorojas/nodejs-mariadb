@@ -22,18 +22,18 @@ Este es un proyecto de ejemplo que muestra cómo crear una API REST con Node.js 
 ## Uso
 
 1. Ejecutar el proyecto: `npm start` para ejecutarlo en modo de desarrollo
-2. Enviar una solicitud POST a `/admin/signup` con un JSON que contenga los siguientes campos:
+2. Enviar una solicitud POST a `/admin/login` con un JSON que contenga los siguientes campos:
+```json
+{
+  "email": "admin@email",
+  "password": "admin"
+}
+```
+3. Con el token obtenido, enviar una solicitud con Bearer token POST a `/admin/register` con un JSON que contenga los siguientes campos:
 ```json
 {
   "nombre": "Juan",
   "apellido": "Pérez",
-  "email": "juanperez@gmail.com",
-  "password": "password"
-}
-```
-3. Enviar una solicitud POST a `/admin/login` con un JSON que contenga los siguientes campos:
-```json
-{
   "email": "juanperez@gmail.com",
   "password": "password"
 }
