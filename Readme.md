@@ -29,7 +29,7 @@ Este es un proyecto de ejemplo que muestra cómo crear una API REST con Node.js 
   "password": "admin"
 }
 ```
-3. Con el token obtenido, enviar una solicitud con Bearer token POST a `/admin/register` con un JSON que contenga los siguientes campos:
+3. Con el token obtenido, enviar una solicitud POST con Bearer token a `/admin/register` con un JSON que contenga los siguientes campos:
 ```json
 {
   "nombre": "Juan",
